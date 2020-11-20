@@ -1,0 +1,18 @@
+body {
+    font-family: 'Merriweather', Serif;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    font-size: 100%;
+    display: block;
+}
+
+#home  {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
