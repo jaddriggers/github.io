@@ -6,13 +6,23 @@ body {
     background-color: #ffffff;
     font-size: 100%;
     display: block;
-}
-
-#home  {
     text-align: center;
 }
+
+#home   {
+    text-align: center;
+}
+
+
 
 p {
     font-size: 25px;
 }
 
+
+
+#school .row {
+    margin: 40px 40px;
+    text-align: center;
+    
+}
