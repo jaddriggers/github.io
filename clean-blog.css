@@ -75,16 +75,27 @@ blockquote {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+  object-fit: scale-down;
+  
+  
 }
 
 img::selection {
   color: #fff;
   background: transparent;
+  height: auto;
+  max-width: 100%;
+  object-fit: scale-down;
+  
+  
 }
 
 img::-moz-selection {
   color: #fff;
   background: transparent;
+  object-fit: scale-down;
+  
+  
 }
 
 #mainNav {
@@ -175,7 +186,8 @@ header.masthead {
   background-color: #868e96;
   background-attachment: scroll;
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  
 }
 
 header.masthead .overlay {
@@ -186,6 +198,8 @@ header.masthead .overlay {
   width: 100%;
   background-color: #212529;
   opacity: 0.5;
+  
+  
 }
 
 header.masthead .page-heading,
@@ -193,6 +207,7 @@ header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -206,6 +221,7 @@ header.masthead .site-heading {
 header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
+  
 }
 
 header.masthead .page-heading h1,

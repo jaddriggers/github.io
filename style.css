@@ -8,6 +8,7 @@ body {
     display: block;
     text-align: center;
     
+    
 }
 
 #home #home2  {
@@ -42,4 +43,12 @@ p {
 
 a {
     color: black;
+}
+
+img {
+  max-width: 100%;
+    height: auto;
+  object-fit: scale-down;
+  
+  
 }
